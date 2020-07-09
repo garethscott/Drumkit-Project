@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    background: rgb(202, 202, 202);
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: 890px;
+    width: 1220px;
+    border-radius: 20px;
+    background: black;
+    
+}
+.back-picture {
+  height: 870px;
+  width: 1200px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-image: url(assests/background-image-0\ .jpg);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 15px;
+
+}
+.content {
+    height: 860px;
+    width: 1190px;
+
+}
+.key {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.cap {
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    color: rgb(119, 250, 248);
+    padding: 0px;
+    width: 33px;
+}
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 75px;
+    width: 125px;
+    color: white;
+    
+}
+.a-key {
+    position: relative;
+    left: 5px;
+    top: 440px;
+}
+.s-key {
+    position: relative;
+    left: 420px;
+    top: 80px;
+}
+.d-key {
+    position: relative;
+    left: 505px;
+    bottom: 285px;
+}
+.f-key {
+    position: relative;
+    left: 710px;
+    bottom: 350px;
+}
+.g-key {
+    position: relative;
+    left: 735px;
+    bottom: 270px;
+}
+.h-key {
+    position: relative;
+    left: 950px;
+    bottom: 170px;
+}
+.j-key {
+    position: relative;
+    left: 160px;
+    bottom: 750px;
+}
+.k-key {
+    position: relative;
+    left: 280px;
+    bottom: 1100px;
+}
+.l-key {
+    position: relative;
+    left: 1050px;
+    bottom: 1070px;
+}
+.instructions {
+    border-top: 3px solid white;
+    position: relative;
+    left: 170px;
+    bottom: 660px;
+    height: 100px;
+    width: 500px;
+}
+.instruction-heading {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    color: white;
+    letter-spacing: 0.08em;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.instruction-copy {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 50;
+    margin-top: 0px;
+    line-height: 1.3em;
+}
+
