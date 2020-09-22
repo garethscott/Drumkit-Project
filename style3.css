@@ -183,7 +183,7 @@ body {
         font-size: 12px;
         font-style: italic;
         color: white;
-        border-bottom: 2px solid rgb(255, 255, 255);
+        /* border-bottom: 2px solid rgb(255, 255, 255); */
         padding-bottom: 5px;
     }
     .extra-copy {
