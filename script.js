@@ -8,15 +8,25 @@ let keyJsound = new Audio('sounds/hihat.wav')
 let keyKsound = new Audio('sounds/openhat.wav')
 let keyLsound = new Audio('sounds/ride.wav')
 
-let capA = document.getElementById("cap-a")
-let capS = document.getElementById("cap-s")
-let capD = document.getElementById("cap-d")
-let capF = document.getElementById("cap-f")
-let capG = document.getElementById("cap-g")
-let capH = document.getElementById("cap-h")
-let capJ = document.getElementById("cap-j")
-let capK = document.getElementById("cap-k")
-let capL = document.getElementById("cap-l")
+// let capA = document.getElementById("cap-a")
+// let capS = document.getElementById("cap-s")
+// let capD = document.getElementById("cap-d")
+// let capF = document.getElementById("cap-f")
+// let capG = document.getElementById("cap-g")
+// let capH = document.getElementById("cap-h")
+// let capJ = document.getElementById("cap-j")
+// let capK = document.getElementById("cap-k")
+// let capL = document.getElementById("cap-l")
+
+let capA = document.getElementById("a-key")
+let capS = document.getElementById("s-key")
+let capD = document.getElementById("d-key")
+let capF = document.getElementById("f-key")
+let capG = document.getElementById("g-key")
+let capH = document.getElementById("h-key")
+let capJ = document.getElementById("j-key")
+let capK = document.getElementById("k-key")
+let capL = document.getElementById("l-key")
 
 
 
@@ -52,8 +62,6 @@ document.addEventListener('keydown', (e) => {
 
 capA.addEventListener('click', () => {
     keyAsound.play();
-    capA.style.color = 'yellow';
-    capA.style.color = 'rgb(119, 250, 248);'
 });
 capS.addEventListener('click', () => {
     keySsound.play();
